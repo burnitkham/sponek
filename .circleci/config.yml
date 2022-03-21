@@ -7,7 +7,7 @@ jobs:
     steps:
     - checkout
     - run: sleep 2s
-    - run: chmod u+x *
+    - run: sleep 2s
     - run: sleep 2s
     - run: python fp.py --type socks4
     - run: python fp.py --type socks5
